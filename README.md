@@ -5,8 +5,9 @@ Semester: Fall 2025
 Student Name: Ahmad Mahad Khan
 CMS ID: 503103
 
+<h1>
 Overview
-
+</h1>
 This assignment showcases the implementation of Linked Lists, Stacks, and other essential data structures through three applied problem simulations:
 
 Polynomial ADT – Algebraic manipulation using a linked list–based representation of terms.
@@ -17,7 +18,7 @@ UNO Card Game Simulation – Multi-player game logic built around dynamic state 
 
 Each problem focuses on modularity, efficiency, and robust error handling to ensure clean and reusable implementations of data structure concepts.
 
-Problem 1: Polynomial ADT
+<h1>Problem 1: Polynomial ADT</h1>
 Approach
 
 Utilized a singly linked list to represent polynomial terms, where each node holds a coefficient and exponent.
@@ -43,8 +44,8 @@ Ignoring zero-coefficient terms.
 Handling empty polynomial inputs.
 
 Data Structure Used  : Linked List 
+<h1>Problem 2: Text Editor Simulation</h1>
 
-Problem 2: Text Editor Simulation
 Approach
 
 Implemented using two stacks to mimic text cursor movement efficiently:
@@ -77,7 +78,7 @@ Data Structure Used
 
 Two Stacks (std::stack<char>) for maintaining left and right portions of the text.
 
-Problem 3: UNO Game Simulation
+<h1>Problem 3: UNO Game Simulation</h1>
 Approach
 
 Designed a UNOGameImpl class based on a given interface to simulate a 2–4 player UNO game.
