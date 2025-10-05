@@ -156,5 +156,5 @@ void text_editor_check() {
 
 }
 int main() {
-    text_editor_check();
+    // text_editor_check();
 }

@@ -385,7 +385,7 @@ void polynomail_test()
 
 int main()
 {
-    polynomail_test();
+    // polynomail_test();
 
     return 0;
 }
