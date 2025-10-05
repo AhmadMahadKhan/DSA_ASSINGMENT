@@ -330,6 +330,9 @@ void polynomail_test()
 
     cout << "expected==> 5x^5 + 4x^3 + 9x^1" << endl;
     cout << "Passed" << endl;
+    cout << endl ;
+    cout << endl ;
+
 
     Polynomial *p2 = new PolynomialImplementation();
     p2->insertTerm(10, 6);
@@ -338,6 +341,8 @@ void polynomail_test()
 
     cout << "expected==> 15x^6\n";
     cout << "Passed" << endl;
+    cout << endl ;
+
 
     Polynomial *p3 = new PolynomialImplementation();
     p3->insertTerm(10, 4);
@@ -345,6 +350,9 @@ void polynomail_test()
     cout << "p3 = " << p3->toString() << endl;
     cout << "expected: zero" << endl;
     cout << "Passed" << endl;
+    cout << endl ;
+    cout << endl ;
+
 
     Polynomial *p4 = new PolynomialImplementation();
     p4->insertTerm(2, 1);
@@ -354,6 +362,8 @@ void polynomail_test()
     cout << "2x * 3x = " << product->toString() << endl;
     cout << "Expected: 6x^2" << endl;
     cout << "Passed";
+    cout << endl;
+    cout << endl;
 
     Polynomial *p6 = new PolynomialImplementation();
     p6->insertTerm(1, 2);
@@ -366,8 +376,12 @@ void polynomail_test()
     Polynomial *result = temp->add(*p8);
     cout << "Result: " << result->toString() << endl;
     cout << "Expected: 3x^2 + 7x^1\n";
-    cout << "Passed\n\n";
+    cout << "Passed";
+    cout << endl ;
+    cout << endl ;
+
 }
+
 
 int main()
 {
